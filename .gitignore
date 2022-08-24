@@ -1,0 +1,5 @@
+abc/**/**/test/
+arc/**/**/test/
+*.json
+*.in
+*.out
