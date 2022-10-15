@@ -7,24 +7,23 @@
 #define vs vector<string>
 #define vb vector<bool>
 #define vvi vector<vector<int>>
-#define vvc vector<vector<char>>
 #define vvb vector<vector<bool>>
+#define vvc vector<vector<char>>
 using namespace std;
 
-int main() {
-  int n,p,q,r;
-  cin>>n>>p>>q>>r;
-  vi A(n);
-  rep(i,n) cin>>A[i];
-  vi S(n+1);
-  S[0]=0;
-  reps(i,1,n+1) S[i]=S[i-1]+A[i-1];
 
-  rep(x,n){
-    int center=(n-x)/2;
-    S[y]=p + S[x]
-    s[z]=q + S[y]
-    S[w]=r + S[z]
+int main() {
+  int n=4;
+  vi X(n);
+  vi Y(n);
+  rep(i,4){
+    cin>>X[i]>>Y[i];
   }
+  // (x1-x0)(y-y0)=(y1-y0)(x-x0)
+
+
+
+
+  cout<<"Yes"<<endl;
 
 }
